@@ -3,8 +3,9 @@ Basic Neural Network
 ## Installation
 ```
 git clone https://github.com/KNUAI/BasicNN.git
-cd BasicNN
-pip install -r requirements.txt
+```
+```
+cd BasicNN && pip install -r requirements.txt
 ```
 ## Usage
 if you want to run MLP or CNN
