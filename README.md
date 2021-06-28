@@ -3,12 +3,10 @@ Basic Neural Network
 ## Installation
 ```
 git clone https://github.com/KNUAI/BasicNN.git
+cd BasicNN
 pip install -r requirements.txt
 ```
 ## Usage
-```
-cd BasicNN
-```
 if you want to run MLP or CNN
 ```
 python main.py --epoch 10 --batch_size 256 --lr 1e-4 --dropout 0.2 --model 'CNN'
