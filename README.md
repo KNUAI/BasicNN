@@ -10,11 +10,11 @@ cd BasicNN && pip install -r requirements.txt
 ## Usage
 If you want to run MLP or CNN
 ```
-python main.py --epoch 10 --batch_size 256 --lr 1e-4 --dropout 0.2 --model 'CNN'
+python main.py --epoch 10 --batch_size 256 --lr 1e-4 --dropout 0.2 --model CNN
 ```
 If you want to run RNN(RNN, LSTM, GRU)
 ```
-python main_rnn.py --epoch 10 --batch_size 256 --lr 1e-4 --dropout 0.2 --model 'LSTM' --hidden_size 128 --n_layer 1
+python main_rnn.py --epoch 10 --batch_size 256 --lr 1e-4 --dropout 0.2 --model LSTM --hidden_size 128 --n_layer 1
 ```
 If you want to run seq2seq
 ```
