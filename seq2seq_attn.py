@@ -1,3 +1,4 @@
+import os
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -23,7 +24,12 @@ parser.add_argument('--dropout', type=float, default=0.5, help='dropout')
 parser.add_argument('--lr', type=float, default=1e-3, help='learning_rate')
 parser.add_argument('--clip', type=float, default=1e-2, help='clip')
 parser.add_argument('--epoch', type=int, default=30, help='epoch')
+
 args = parser.parse_args()
+
+#folder
+if not os.path.exists('./path'):
+    os.makedirs('./path')
 
 #seed
 torch.manual_seed(args.seed)
