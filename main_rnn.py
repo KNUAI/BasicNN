@@ -62,7 +62,7 @@ total_loss = 0
 total_acc = 0
 train_loss = []
 train_accuracy = []
-i = 0
+i = 1
 for epoch in range(args.epoch):
     for data, target in train_loader:
         data = data.reshape(-1, args.sequence_len, args.input_size).to(device)
