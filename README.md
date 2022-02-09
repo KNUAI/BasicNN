@@ -7,6 +7,8 @@ git clone https://github.com/KNUAI/BasicNN.git
 ```
 cd BasicNN && pip install -r requirements.txt
 ```
+## Notice
+### This repo was written in Python 3.6
 ## Usage
 If you want to run MLP or CNN
 ```
