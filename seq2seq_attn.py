@@ -170,6 +170,7 @@ class Seq2Seq(nn.Module):
             teacher_force = random.random() < teacher_forcing_ratio
             top1 = output.argmax(1)
             input = trg[t] if teacher_force else top1
+            last_hidden = hidden
 
         return outputs
 
