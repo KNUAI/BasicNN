@@ -16,7 +16,7 @@ parser.add_argument('--seed', type=int, default=117, help='seed')
 parser.add_argument('--epoch', type=int, default=10, help='epoch')
 parser.add_argument('--batch_size', type=int, default=256, help='batch_size')
 parser.add_argument('--lr', type=float, default=1e-4, help='learning_rate')
-parser.add_argument('--dropout', type=float, default=0.2, help='learning_rate')
+parser.add_argument('--dropout', type=float, default=0.2, help='dropout_rate')
 parser.add_argument('--model', type=str, default='MLP', help='model')
 parser.add_argument('--n_class', type=int, default=10, help='number of class')
 
